@@ -1,6 +1,6 @@
 from os import environ
 import re
-
+from server.app import app, db 
 from app import app, db
 from server.models import Animal, Enclosure, Zookeeper
 
